@@ -1,7 +1,10 @@
-"""Drive a fixed-standing Gazebo model through planar pose updates."""
+"""Drive a fixed-standing Gazebo model with planar motion and optional stair height following."""
 import argparse
 import math
 import time
+from pathlib import Path
+
+from terrain import StairTerrain, advance
 
 import rclpy
 from geometry_msgs.msg import Twist
@@ -13,8 +16,9 @@ from ros_gz_interfaces.srv import SetEntityPose
 
 
 class PoseControl(Node):
-    def __init__(self, world):
+    def __init__(self, world, terrain=None):
         super().__init__('go2_pose_control')
+        self.terrain = terrain
         self.client = self.create_client(SetEntityPose, f'/world/{world}/set_pose')
         self.command = (0., 0., 0.)
         self.command_time = 0.
@@ -48,7 +52,7 @@ class PoseControl(Node):
         for transform in msg.transforms:
             if transform.child_frame_id == 'go2':
                 t, q = transform.transform.translation, transform.transform.rotation
-                self.pose = (t.x, t.y, 2 * math.atan2(q.z, q.w))
+                self.pose = (t.x, t.y, t.z, 2 * math.atan2(q.z, q.w))
                 break
 
     def tick(self):
@@ -62,18 +66,16 @@ class PoseControl(Node):
         dt = max(0., min(.1, self.clock - self.previous_clock))
         self.previous_clock = self.clock
         vx, vy, wz = self.command if time.monotonic() - self.command_time < .3 else (0., 0., 0.)
-        if dt == 0 or (vx == 0 and vy == 0 and wz == 0):
+        if dt == 0:
             return
-        x, y, yaw = self.pose
-        angle = yaw + wz * dt / 2
-        target = (x + (vx * math.cos(angle) - vy * math.sin(angle)) * dt,
-                  y + (vx * math.sin(angle) + vy * math.cos(angle)) * dt,
-                  math.remainder(yaw + wz * dt, 2 * math.pi))
+        target = advance(self.pose, (vx, vy, wz), dt, self.terrain)
+        if all(abs(a-b) < 1e-9 for a,b in zip(target, self.pose)):
+            return
         req = SetEntityPose.Request()
         req.entity.name = 'go2'
-        req.pose.position.x, req.pose.position.y = target[:2]
-        req.pose.orientation.z = math.sin(target[2] / 2)
-        req.pose.orientation.w = math.cos(target[2] / 2)
+        req.pose.position.x, req.pose.position.y, req.pose.position.z = target[:3]
+        req.pose.orientation.z = math.sin(target[3] / 2)
+        req.pose.orientation.w = math.cos(target[3] / 2)
         self.pending = self.client.call_async(req)
         self.pending.add_done_callback(lambda future: self.on_result(future, target))
 
@@ -90,9 +92,14 @@ class PoseControl(Node):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--world', required=True)
+    parser.add_argument('--terrain-sdf', type=Path, help='Stair SDF with named walkable collisions')
     args = parser.parse_args()
+    terrain_path = args.terrain_sdf
+    if terrain_path is None and args.world == 'stairs':
+        terrain_path = Path(__file__).resolve().parents[2] / 'gazebo/worlds/stairs.sdf'
+    terrain = StairTerrain.from_sdf(terrain_path) if terrain_path else None
     rclpy.init(args=[])
-    node = PoseControl(args.world)
+    node = PoseControl(args.world, terrain)
     try:
         rclpy.spin(node)
     finally:

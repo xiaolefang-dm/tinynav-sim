@@ -93,3 +93,31 @@ In Pilot, enable the rear unit in Device > Cameras and save its installation.
 Pilot records the rig manifest with the bag, stores both directions at each
 keypose and fuses rear depth for occupancy/planning. The adapter still supplies
 Gazebo ground truth, not independently estimated front/rear VIO.
+
+## Stair height following in kinematic mode
+
+For `--world stairs`, the pose controller automatically loads the named walkable
+collisions from `gazebo/worlds/stairs.sdf`. It follows both flights and landings
+in Z while retaining the fixed standing pose and yaw-only orientation. The
+geometry source is the SDF's `stairs_switchback` model: `col_f1_s*`, `col_f2_s*`
+and `col_plat*` box collisions; rails and visual meshes are not walkable surfaces.
+`--terrain-sdf PATH` selects another SDF using the same explicit naming contract.
+
+Height changes slew at at most 0.5 m/s of simulation time and finish settling
+after movement stops. Horizontal transitions with more than 0.20 m of ground
+height change are rejected: the robot cannot jump onto a high platform from
+the side or walk directly off its edge. Yaw remains usable at a blocked edge.
+Flat worlds retain the model's initial Z instead of resetting it to zero.
+This remains a kinematic mapping/navigation aid: no gait, foot contact, body
+pitch, general mesh collision or physical climbing capability is simulated.
+
+Validation inside the simulation container:
+
+```bash
+python3 -m unittest discover -s tools/manual_intervention -p test_terrain.py -v
+```
+
+The tests load the real staircase geometry, cover both ascent/descent flights
+and landings, limit vertical slew, reject side jumps and large drops, and keep
+flat-world spawn height. Live Gazebo verification checks body Z and both camera
+poses at the 1.2 m / 2.4 m landings and after descending to ground.
