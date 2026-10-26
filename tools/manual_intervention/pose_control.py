@@ -1,5 +1,6 @@
 """Drive a fixed-standing Gazebo model with planar motion and optional stair height following."""
 import argparse
+import json
 import math
 import time
 from pathlib import Path
@@ -8,6 +9,8 @@ from terrain import StairTerrain, advance
 
 import rclpy
 from geometry_msgs.msg import Twist
+from std_msgs.msg import String
+from elevator import constrain
 from rclpy.node import Node
 from rclpy.qos import qos_profile_sensor_data
 from rosgraph_msgs.msg import Clock
@@ -19,6 +22,10 @@ class PoseControl(Node):
     def __init__(self, world, terrain=None):
         super().__init__('go2_pose_control')
         self.terrain = terrain
+        self.elevator_state = None
+        self.is_elevator = world == 'elevator'
+        if self.is_elevator:
+            self.create_subscription(String, '/elevator/state', self.on_elevator, 10)
         self.client = self.create_client(SetEntityPose, f'/world/{world}/set_pose')
         self.command = (0., 0., 0.)
         self.command_time = 0.
@@ -30,6 +37,12 @@ class PoseControl(Node):
         self.create_subscription(Clock, '/clock', self.on_clock, qos_profile_sensor_data)
         self.create_subscription(TFMessage, '/sim/world_pose', self.on_pose, qos_profile_sensor_data)
         self.create_timer(.05, self.tick)
+
+    def on_elevator(self, msg):
+        try:
+            self.elevator_state = json.loads(msg.data)
+        except ValueError:
+            self.elevator_state = None
 
     def on_command(self, msg):
         command = (msg.linear.x, msg.linear.y, msg.angular.z)
@@ -69,6 +82,8 @@ class PoseControl(Node):
         if dt == 0:
             return
         target = advance(self.pose, (vx, vy, wz), dt, self.terrain)
+        if self.is_elevator:
+            target = constrain(self.pose, target, self.elevator_state)
         if all(abs(a-b) < 1e-9 for a,b in zip(target, self.pose)):
             return
         req = SetEntityPose.Request()

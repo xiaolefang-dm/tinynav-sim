@@ -178,3 +178,9 @@ treadmill trot（skating 步态，落足高度取体相对值、无地形感知�
 - factory 世界的 `model://factory_01` 厂房模型在仓库外，用 `FACTORY_MODEL_ROOT`
   环境变量指到包含 `gz_model/` 的目录。
 - `--db <path>` 导出 `TINYNAV_DB_PATH` 给所有窗口（logsetup 的数据根）。
+
+## Manual elevator scene
+
+For the two-floor elevator world, sliding doors, cabin carrying and the HTTP
+operator panel, see [manual elevator](../tools/manual_intervention/README.md#manual-two-floor-elevator).
+This uses the kinematic Go2 adapter and does not launch the C++ navigation stack.
