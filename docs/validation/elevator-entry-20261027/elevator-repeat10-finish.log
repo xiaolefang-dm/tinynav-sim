@@ -1,0 +1,145 @@
+{"event": "ROUND_START", "iteration": 7}
+{"case": "right", "event": "start", "pose": [1.2766574639100556, -0.3301678466723946, -0.006753797064047454]}
+{"case": "right", "event": "stage", "stage": "waiting_for_open_door", "elapsed": 0.0, "robot": [1.2766574639100556, -0.3301678466723946, 0.0], "error": ""}
+{"case": "right", "event": "stage", "stage": "aligning_at_door", "elapsed": 3.3, "robot": [1.2766574639100556, -0.3301678466723946, 0.0], "error": ""}
+{"case": "right", "event": "stage", "stage": "entering", "elapsed": 11.0, "robot": [2.161738735470306, -0.18605045857887675, 0.0], "error": ""}
+{"case": "right", "event": "stage", "stage": "settling_inside", "elapsed": 28.1, "robot": [4.190581793589632, 0.054825443313742124, 0.0], "error": ""}
+{"case": "right", "event": "stage", "stage": "closing_door", "elapsed": 29.1, "robot": [4.190581793589632, 0.054825443313742124, 0.0], "error": ""}
+{"case": "right", "event": "stage", "stage": "inside_door_closed", "elapsed": 32.4, "robot": [4.190581793589632, 0.054825443313742124, 0.0], "error": ""}
+{"case": "right", "event": "PASS", "events": ["waiting_for_open_door", "aligning_at_door", "entering", "settling_inside", "closing_door", "inside_door_closed"], "robot": [4.190581793589632, 0.054825443313742124, 0.0]}
+{"case": "angled", "event": "start", "pose": [1.2542453988476037, 0.17185813088850072, 0.32427191249951637]}
+{"case": "angled", "event": "stage", "stage": "waiting_for_open_door", "elapsed": 0.0, "robot": [1.2542453988476037, 0.17185813088850072, 0.0], "error": ""}
+{"case": "angled", "event": "stage", "stage": "aligning_at_door", "elapsed": 3.3, "robot": [1.2542453988476037, 0.17185813088850072, 0.0], "error": ""}
+{"case": "angled", "event": "stage", "stage": "entering", "elapsed": 11.0, "robot": [2.136107620566657, 0.16111738244924764, 0.0], "error": ""}
+{"case": "angled", "event": "stage", "stage": "settling_inside", "elapsed": 28.4, "robot": [4.2423978742039345, 0.018243846909772737, 0.0], "error": ""}
+{"case": "angled", "event": "stage", "stage": "closing_door", "elapsed": 29.9, "robot": [4.2423978742039345, 0.018243846909772737, 0.0], "error": ""}
+{"case": "angled", "event": "stage", "stage": "inside_door_closed", "elapsed": 33.5, "robot": [4.2423978742039345, 0.018243846909772737, 0.0], "error": ""}
+{"case": "angled", "event": "PASS", "events": ["waiting_for_open_door", "aligning_at_door", "entering", "settling_inside", "closing_door", "inside_door_closed"], "robot": [4.2423978742039345, 0.018243846909772737, 0.0]}
+{"event": "ROUND_PASS"}
+{"event": "SAFETY_START", "device": {"online": true, "battery": null, "bagStatus": "idle", "bagFileReady": false, "mapStatus": "success", "navStatus": "idle", "rawState": "idle", "navNodesRunning": true, "navWanted": true, "navMode": "elevator_manual", "navModeRunning": "elevator_manual", "navMissionHeld": true, "elevatorAvailable": true, "elevatorEntry": {"stage": "waiting_for_open_door", "error": "", "driving": false}, "chargeState": "unknown", "externallyPowered": null, "mappingPercent": 0.0, "onStairs": false, "navPaused": true, "navActive": false}, "lift": {"height": 0.0, "floor": 0, "target": 0, "motion": "idle", "door_fraction": 0.0, "door_open": false, "confirmed": true, "robot": [1.2827607026587053, -3.067538299402054e-06, 0.0], "error": ""}}
+{"event": "SAFETY_OPEN", "response": {"ok": true}}
+{"event": "DOOR_INTERRUPTION_PASS", "robot": [2.113405742529272, -3.074117019948576e-06, 0.0], "status": {"stage": "stopped", "error": "Entry interrupted: manual control, mode change, stale pose or door state", "driving": false}}
+{"event": "NO_UNEXPECTED_RETRY_PASS"}
+{"event": "READY_FOR_USER", "robot": [1.2842080199314365, -4.842973428970334e-08, 0.0]}
+{"event": "ITERATION_PASS", "iteration": 7}
+{"event": "ROUND_START", "iteration": 8}
+{"case": "center", "event": "start", "pose": [1.2842080199314365, -4.842973428970334e-08, -2.7931471060619857e-11]}
+{"case": "center", "event": "stage", "stage": "waiting_for_open_door", "elapsed": 0.0, "robot": [1.2842080199314365, -4.842973428970334e-08, 0.0], "error": ""}
+{"case": "center", "event": "stage", "stage": "aligning_at_door", "elapsed": 3.3, "robot": [1.2842080199314365, -4.842973428970334e-08, 0.0], "error": ""}
+{"case": "center", "event": "stage", "stage": "entering", "elapsed": 10.0, "robot": [2.0530914722783398, -4.845121033560154e-08, 0.0], "error": ""}
+{"case": "center", "event": "stage", "stage": "settling_inside", "elapsed": 27.9, "robot": [4.201052581181253, -4.851120604915414e-08, 0.0], "error": ""}
+{"case": "center", "event": "stage", "stage": "closing_door", "elapsed": 28.9, "robot": [4.201052581181253, -4.851120604915414e-08, 0.0], "error": ""}
+{"case": "center", "event": "stage", "stage": "inside_door_closed", "elapsed": 32.5, "robot": [4.201052581181253, -4.851120604915414e-08, 0.0], "error": ""}
+{"case": "center", "event": "PASS", "events": ["waiting_for_open_door", "aligning_at_door", "entering", "settling_inside", "closing_door", "inside_door_closed"], "robot": [4.201052581181253, -4.851120604915414e-08, 0.0]}
+{"case": "left", "event": "start", "pose": [1.2531425164620071, 0.31522391587262494, -1.7298460982640704e-19]}
+{"case": "left", "event": "stage", "stage": "waiting_for_open_door", "elapsed": 0.0, "robot": [1.2531425164620071, 0.31522391587262494, 0.0], "error": ""}
+{"case": "left", "event": "stage", "stage": "aligning_at_door", "elapsed": 3.3, "robot": [1.2531425164620071, 0.31522391587262494, 0.0], "error": ""}
+{"case": "left", "event": "stage", "stage": "entering", "elapsed": 11.0, "robot": [2.1335826849940647, 0.18011792283979877, 0.0], "error": ""}
+{"case": "left", "event": "stage", "stage": "settling_inside", "elapsed": 28.6, "robot": [4.216481674824586, -0.04738486607636625, 0.0], "error": ""}
+{"case": "left", "event": "stage", "stage": "closing_door", "elapsed": 29.6, "robot": [4.216481674824586, -0.04738486607636625, 0.0], "error": ""}
+{"case": "left", "event": "stage", "stage": "inside_door_closed", "elapsed": 32.9, "robot": [4.216481674824586, -0.04738486607636625, 0.0], "error": ""}
+{"case": "left", "event": "PASS", "events": ["waiting_for_open_door", "aligning_at_door", "entering", "settling_inside", "closing_door", "inside_door_closed"], "robot": [4.216481674824586, -0.04738486607636625, 0.0]}
+{"case": "right", "event": "start", "pose": [1.2531356794892168, -0.31516826279009813, 2.6020470927005766e-10]}
+{"case": "right", "event": "stage", "stage": "waiting_for_open_door", "elapsed": 0.0, "robot": [1.2531356794892168, -0.31516826279009813, 0.0], "error": ""}
+{"case": "right", "event": "stage", "stage": "aligning_at_door", "elapsed": 3.3, "robot": [1.2531356794892168, -0.31516826279009813, 0.0], "error": ""}
+{"case": "right", "event": "stage", "stage": "entering", "elapsed": 11.0, "robot": [2.1368688944484586, -0.16497274543842544, 0.0], "error": ""}
+{"case": "right", "event": "stage", "stage": "settling_inside", "elapsed": 28.4, "robot": [4.243227212316057, 0.0582690862537691, 0.0], "error": ""}
+{"case": "right", "event": "stage", "stage": "closing_door", "elapsed": 29.9, "robot": [4.243227212316058, 0.058269086253769226, 0.0], "error": ""}
+{"case": "right", "event": "stage", "stage": "inside_door_closed", "elapsed": 33.5, "robot": [4.243227212316058, 0.058269086253769226, 0.0], "error": ""}
+{"case": "right", "event": "PASS", "events": ["waiting_for_open_door", "aligning_at_door", "entering", "settling_inside", "closing_door", "inside_door_closed"], "robot": [4.243227212316058, 0.058269086253769226, 0.0]}
+{"case": "angled", "event": "start", "pose": [1.2539598203749573, 0.17399763140479493, 0.32682442693825775]}
+{"case": "angled", "event": "stage", "stage": "waiting_for_open_door", "elapsed": 0.0, "robot": [1.2539598203749573, 0.17399763140479493, 0.0], "error": ""}
+{"case": "angled", "event": "stage", "stage": "aligning_at_door", "elapsed": 3.3, "robot": [1.2539598203749573, 0.17399763140479493, 0.0], "error": ""}
+{"case": "angled", "event": "stage", "stage": "entering", "elapsed": 11.0, "robot": [2.1342038441655, 0.15220558540011095, 0.0], "error": ""}
+{"case": "angled", "event": "stage", "stage": "settling_inside", "elapsed": 28.4, "robot": [4.234309743035651, -0.08295096360564211, 0.0], "error": ""}
+{"case": "angled", "event": "stage", "stage": "closing_door", "elapsed": 29.9, "robot": [4.234309743035651, -0.08295096360564211, 0.0], "error": ""}
+{"case": "angled", "event": "stage", "stage": "inside_door_closed", "elapsed": 33.5, "robot": [4.234309743035651, -0.08295096360564211, 0.0], "error": ""}
+{"case": "angled", "event": "PASS", "events": ["waiting_for_open_door", "aligning_at_door", "entering", "settling_inside", "closing_door", "inside_door_closed"], "robot": [4.234309743035651, -0.08295096360564211, 0.0]}
+{"event": "ROUND_PASS"}
+{"event": "SAFETY_START", "device": {"online": true, "battery": null, "bagStatus": "idle", "bagFileReady": false, "mapStatus": "success", "navStatus": "idle", "rawState": "idle", "navNodesRunning": true, "navWanted": true, "navMode": "elevator_manual", "navModeRunning": "elevator_manual", "navMissionHeld": true, "elevatorAvailable": true, "elevatorEntry": {"stage": "waiting_for_open_door", "error": "", "driving": false}, "chargeState": "unknown", "externallyPowered": null, "mappingPercent": 0.0, "onStairs": false, "navPaused": true, "navActive": false}, "lift": {"height": 0.0, "floor": 0, "target": 0, "motion": "idle", "door_fraction": 0.0, "door_open": false, "confirmed": true, "robot": [1.2847959897413388, 2.4874482210707124e-06, 0.0], "error": ""}}
+{"event": "SAFETY_OPEN", "response": {"ok": true}}
+{"event": "DOOR_INTERRUPTION_PASS", "robot": [2.0558789017195114, 2.4939222620914915e-06, 0.0], "status": {"stage": "stopped", "error": "Entry interrupted: manual control, mode change, stale pose or door state", "driving": false}}
+{"event": "NO_UNEXPECTED_RETRY_PASS"}
+{"event": "READY_FOR_USER", "robot": [1.2828411308321799, 4.602765972896378e-08, 0.0]}
+{"event": "ITERATION_PASS", "iteration": 8}
+{"event": "ROUND_START", "iteration": 9}
+{"case": "center", "event": "start", "pose": [1.2828411308321799, 4.602765972896378e-08, 3.664355201589703e-11]}
+{"case": "center", "event": "stage", "stage": "waiting_for_open_door", "elapsed": 0.0, "robot": [1.2828411308321799, 4.602765972896378e-08, 0.0], "error": ""}
+{"case": "center", "event": "stage", "stage": "aligning_at_door", "elapsed": 3.3, "robot": [1.2828411308321799, 4.602765972896378e-08, 0.0], "error": ""}
+{"case": "center", "event": "stage", "stage": "entering", "elapsed": 10.0, "robot": [2.0753368804265935, 4.605669958818644e-08, 0.0], "error": ""}
+{"case": "center", "event": "stage", "stage": "settling_inside", "elapsed": 27.9, "robot": [4.236102471344203, 4.613587771451145e-08, 0.0], "error": ""}
+{"case": "center", "event": "stage", "stage": "closing_door", "elapsed": 28.9, "robot": [4.236102471344203, 4.613587771451145e-08, 0.0], "error": ""}
+{"case": "center", "event": "stage", "stage": "inside_door_closed", "elapsed": 32.5, "robot": [4.236102471344203, 4.613587771451145e-08, 0.0], "error": ""}
+{"case": "center", "event": "PASS", "events": ["waiting_for_open_door", "aligning_at_door", "entering", "settling_inside", "closing_door", "inside_door_closed"], "robot": [4.236102471344203, 4.613587771451145e-08, 0.0]}
+{"case": "left", "event": "start", "pose": [1.253177756660493, 0.31699311764513677, 1.9617806375932665e-19]}
+{"case": "left", "event": "stage", "stage": "waiting_for_open_door", "elapsed": 0.0, "robot": [1.253177756660493, 0.31699311764513677, 0.0], "error": ""}
+{"case": "left", "event": "stage", "stage": "aligning_at_door", "elapsed": 3.6, "robot": [1.253177756660493, 0.31699311764513677, 0.0], "error": ""}
+{"case": "left", "event": "stage", "stage": "entering", "elapsed": 11.0, "robot": [2.139071056023377, 0.2073377181437935, 0.0], "error": ""}
+{"case": "left", "event": "stage", "stage": "settling_inside", "elapsed": 28.1, "robot": [4.207040784231596, -0.02059896025256853, 0.0], "error": ""}
+{"case": "left", "event": "stage", "stage": "closing_door", "elapsed": 29.2, "robot": [4.207040784231596, -0.02059896025256853, 0.0], "error": ""}
+{"case": "left", "event": "stage", "stage": "inside_door_closed", "elapsed": 32.7, "robot": [4.207040784231596, -0.02059896025256853, 0.0], "error": ""}
+{"case": "left", "event": "PASS", "events": ["waiting_for_open_door", "aligning_at_door", "entering", "settling_inside", "closing_door", "inside_door_closed"], "robot": [4.207040784231596, -0.02059896025256853, 0.0]}
+{"case": "right", "event": "start", "pose": [1.2532286477634924, -0.3160300469785234, 1.3014754338325611e-10]}
+{"case": "right", "event": "stage", "stage": "waiting_for_open_door", "elapsed": 0.0, "robot": [1.2532286477634924, -0.3160300469785234, 0.0], "error": ""}
+{"case": "right", "event": "stage", "stage": "aligning_at_door", "elapsed": 3.3, "robot": [1.2532286477634924, -0.3160300469785234, 0.0], "error": ""}
+{"case": "right", "event": "stage", "stage": "entering", "elapsed": 11.5, "robot": [2.1971780293402055, -0.1939283095673495, 0.0], "error": ""}
+{"case": "right", "event": "stage", "stage": "settling_inside", "elapsed": 28.3, "robot": [4.2241571042995885, 0.020421339763743114, 0.0], "error": ""}
+{"case": "right", "event": "stage", "stage": "closing_door", "elapsed": 29.9, "robot": [4.234679052317007, 0.019137357708469017, 0.0], "error": ""}
+{"case": "right", "event": "stage", "stage": "inside_door_closed", "elapsed": 33.4, "robot": [4.234679052317007, 0.019137357708469017, 0.0], "error": ""}
+{"case": "right", "event": "PASS", "events": ["waiting_for_open_door", "aligning_at_door", "entering", "settling_inside", "closing_door", "inside_door_closed"], "robot": [4.234679052317007, 0.019137357708469017, 0.0]}
+{"case": "angled", "event": "start", "pose": [1.2539366959793463, 0.17453496959488396, 0.327566209667689]}
+{"case": "angled", "event": "stage", "stage": "waiting_for_open_door", "elapsed": 0.0, "robot": [1.2539366959793463, 0.17453496959488396, 0.0], "error": ""}
+{"case": "angled", "event": "stage", "stage": "aligning_at_door", "elapsed": 3.6, "robot": [1.2546187762858125, 0.17476554811845588, 0.0], "error": ""}
+{"case": "angled", "event": "stage", "stage": "entering", "elapsed": 11.0, "robot": [2.1471178417050694, 0.1615618280591381, 0.0], "error": ""}
+{"case": "angled", "event": "stage", "stage": "settling_inside", "elapsed": 28.6, "robot": [4.257384563212946, 0.019723831083438514, 0.0], "error": ""}
+{"case": "angled", "event": "stage", "stage": "closing_door", "elapsed": 30.1, "robot": [4.257384563212946, 0.019723831083438514, 0.0], "error": ""}
+{"case": "angled", "event": "stage", "stage": "inside_door_closed", "elapsed": 33.5, "robot": [4.257384563212946, 0.019723831083438514, 0.0], "error": ""}
+{"case": "angled", "event": "PASS", "events": ["waiting_for_open_door", "aligning_at_door", "entering", "settling_inside", "closing_door", "inside_door_closed"], "robot": [4.257384563212946, 0.019723831083438514, 0.0]}
+{"event": "ROUND_PASS"}
+{"event": "SAFETY_START", "device": {"online": true, "battery": null, "bagStatus": "idle", "bagFileReady": false, "mapStatus": "success", "navStatus": "idle", "rawState": "idle", "navNodesRunning": true, "navWanted": true, "navMode": "elevator_manual", "navModeRunning": "elevator_manual", "navMissionHeld": true, "elevatorAvailable": true, "elevatorEntry": {"stage": "waiting_for_open_door", "error": "", "driving": false}, "chargeState": "unknown", "externallyPowered": null, "mappingPercent": 0.0, "onStairs": false, "navPaused": true, "navActive": false}, "lift": {"height": 0.0, "floor": 0, "target": 0, "motion": "idle", "door_fraction": 0.0, "door_open": false, "confirmed": true, "robot": [1.2819311800930326, -2.821081433544878e-06, 0.0], "error": ""}}
+{"event": "SAFETY_OPEN", "response": {"ok": true}}
+{"event": "DOOR_INTERRUPTION_PASS", "robot": [2.066360158522208, -2.8266831471558243e-06, 0.0], "status": {"stage": "stopped", "error": "Entry interrupted: manual control, mode change, stale pose or door state", "driving": false}}
+{"event": "NO_UNEXPECTED_RETRY_PASS"}
+{"event": "READY_FOR_USER", "robot": [1.283029571319819, -5.106783636161273e-08, 0.0]}
+{"event": "ITERATION_PASS", "iteration": 9}
+{"event": "ROUND_START", "iteration": 10}
+{"case": "center", "event": "start", "pose": [1.283029571319819, -5.106783636161273e-08, -3.0587833066615405e-11]}
+{"case": "center", "event": "stage", "stage": "waiting_for_open_door", "elapsed": 0.0, "robot": [1.283029571319819, -5.106783636161273e-08, 0.0], "error": ""}
+{"case": "center", "event": "stage", "stage": "aligning_at_door", "elapsed": 3.3, "robot": [1.283029571319819, -5.106783636161273e-08, 0.0], "error": ""}
+{"case": "center", "event": "stage", "stage": "entering", "elapsed": 10.5, "robot": [2.1020683012695103, -5.109288898155938e-08, 0.0], "error": ""}
+{"case": "center", "event": "stage", "stage": "settling_inside", "elapsed": 28.1, "robot": [4.218079054768148, -5.115761316525431e-08, 0.0], "error": ""}
+{"case": "center", "event": "stage", "stage": "closing_door", "elapsed": 29.1, "robot": [4.218079054768148, -5.115761316525431e-08, 0.0], "error": ""}
+{"case": "center", "event": "stage", "stage": "inside_door_closed", "elapsed": 32.7, "robot": [4.218079054768148, -5.115761316525431e-08, 0.0], "error": ""}
+{"case": "center", "event": "PASS", "events": ["waiting_for_open_door", "aligning_at_door", "entering", "settling_inside", "closing_door", "inside_door_closed"], "robot": [4.218079054768148, -5.115761316525431e-08, 0.0]}
+{"case": "left", "event": "start", "pose": [1.2528058804940312, 0.3176096211173625, -1.5241192350360046e-19]}
+{"case": "left", "event": "stage", "stage": "waiting_for_open_door", "elapsed": 0.0, "robot": [1.2528058804940312, 0.3176096211173625, 0.0], "error": ""}
+{"case": "left", "event": "stage", "stage": "aligning_at_door", "elapsed": 3.6, "robot": [1.2528058804940312, 0.3176096211173625, 0.0], "error": ""}
+{"case": "left", "event": "stage", "stage": "entering", "elapsed": 11.0, "robot": [2.1430651941656533, 0.18883275716496348, 0.0], "error": ""}
+{"case": "left", "event": "stage", "stage": "settling_inside", "elapsed": 28.1, "robot": [4.225099801264981, -0.06588466387491893, 0.0], "error": ""}
+{"case": "left", "event": "stage", "stage": "closing_door", "elapsed": 29.4, "robot": [4.225099801264981, -0.06588466387491893, 0.0], "error": ""}
+{"case": "left", "event": "stage", "stage": "inside_door_closed", "elapsed": 33.0, "robot": [4.225099801264981, -0.06588466387491893, 0.0], "error": ""}
+{"case": "left", "event": "PASS", "events": ["waiting_for_open_door", "aligning_at_door", "entering", "settling_inside", "closing_door", "inside_door_closed"], "robot": [4.225099801264981, -0.06588466387491893, 0.0]}
+{"case": "right", "event": "start", "pose": [1.2531252299659716, -0.3171773900511556, -3.5363664093802716e-10]}
+{"case": "right", "event": "stage", "stage": "waiting_for_open_door", "elapsed": 0.0, "robot": [1.2531252299659716, -0.3171773900511556, 0.0], "error": ""}
+{"case": "right", "event": "stage", "stage": "aligning_at_door", "elapsed": 3.6, "robot": [1.2531252299659716, -0.3171773900511556, 0.0], "error": ""}
+{"case": "right", "event": "stage", "stage": "entering", "elapsed": 11.0, "robot": [2.115654727644182, -0.17429608672002955, 0.0], "error": ""}
+{"case": "right", "event": "stage", "stage": "settling_inside", "elapsed": 28.4, "robot": [4.194387405194253, 0.0672208751515362, 0.0], "error": ""}
+{"case": "right", "event": "stage", "stage": "closing_door", "elapsed": 29.5, "robot": [4.194387405194254, 0.06722087515153628, 0.0], "error": ""}
+{"case": "right", "event": "stage", "stage": "inside_door_closed", "elapsed": 33.0, "robot": [4.194387405194254, 0.06722087515153628, 0.0], "error": ""}
+{"case": "right", "event": "PASS", "events": ["waiting_for_open_door", "aligning_at_door", "entering", "settling_inside", "closing_door", "inside_door_closed"], "robot": [4.194387405194254, 0.06722087515153628, 0.0]}
+{"case": "angled", "event": "start", "pose": [1.2538304589942304, 0.17449030040923635, 0.32739935457193803]}
+{"case": "angled", "event": "stage", "stage": "waiting_for_open_door", "elapsed": 0.0, "robot": [1.2538304589942304, 0.17449030040923635, 0.0], "error": ""}
+{"case": "angled", "event": "stage", "stage": "aligning_at_door", "elapsed": 3.6, "robot": [1.2538304589942304, 0.17449030040923635, 0.0], "error": ""}
+{"case": "angled", "event": "stage", "stage": "entering", "elapsed": 11.0, "robot": [2.1324677423678566, 0.16142198060431198, 0.0], "error": ""}
+{"case": "angled", "event": "stage", "stage": "settling_inside", "elapsed": 28.6, "robot": [4.24365933841126, 0.014183337363600522, 0.0], "error": ""}
+{"case": "angled", "event": "stage", "stage": "closing_door", "elapsed": 29.6, "robot": [4.24365933841126, 0.014183337363600522, 0.0], "error": ""}
+{"case": "angled", "event": "stage", "stage": "inside_door_closed", "elapsed": 33.2, "robot": [4.24365933841126, 0.014183337363600522, 0.0], "error": ""}
+{"case": "angled", "event": "PASS", "events": ["waiting_for_open_door", "aligning_at_door", "entering", "settling_inside", "closing_door", "inside_door_closed"], "robot": [4.24365933841126, 0.014183337363600522, 0.0]}
+{"event": "ROUND_PASS"}
+{"event": "SAFETY_START", "device": {"online": true, "battery": null, "bagStatus": "idle", "bagFileReady": false, "mapStatus": "success", "navStatus": "idle", "rawState": "idle", "navNodesRunning": true, "navWanted": true, "navMode": "elevator_manual", "navModeRunning": "elevator_manual", "navMissionHeld": true, "elevatorAvailable": true, "elevatorEntry": {"stage": "waiting_for_open_door", "error": "", "driving": false}, "chargeState": "unknown", "externallyPowered": null, "mappingPercent": 0.0, "onStairs": false, "navPaused": true, "navActive": false}, "lift": {"height": 0.0, "floor": 0, "target": 0, "motion": "idle", "door_fraction": 0.0, "door_open": false, "confirmed": true, "robot": [1.2839400969929413, -3.3742987914812604e-06, 0.0], "error": ""}}
+{"event": "SAFETY_OPEN", "response": {"ok": true}}
+{"event": "DOOR_INTERRUPTION_PASS", "robot": [2.100300810801954, -3.3815879951350972e-06, 0.0], "status": {"stage": "stopped", "error": "Entry interrupted: manual control, mode change, stale pose or door state", "driving": false}}
+{"event": "NO_UNEXPECTED_RETRY_PASS"}
+{"event": "READY_FOR_USER", "robot": [1.282776276759297, -5.2918086681479225e-08, 0.0]}
+{"event": "ITERATION_PASS", "iteration": 10}
+{"event": "ALL_10_ROUNDS_PASS"}

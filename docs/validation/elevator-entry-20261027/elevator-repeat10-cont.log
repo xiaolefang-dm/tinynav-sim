@@ -1,0 +1,226 @@
+{"event": "ROUND_START", "iteration": 2}
+{"case": "center", "event": "start", "pose": [1.2840607285525445, -4.160123174475834e-08, -2.956858911940266e-11]}
+{"case": "center", "event": "stage", "stage": "waiting_for_open_door", "elapsed": 0.0, "robot": [1.2840607285525445, -4.160123174475834e-08, 0.0], "error": ""}
+{"case": "center", "event": "stage", "stage": "aligning_at_door", "elapsed": 3.6, "robot": [1.2840607285525445, -4.160123174475834e-08, 0.0], "error": ""}
+{"case": "center", "event": "stage", "stage": "entering", "elapsed": 9.9, "robot": [2.049698429231477, -4.162387057134397e-08, 0.0], "error": ""}
+{"case": "center", "event": "stage", "stage": "settling_inside", "elapsed": 28.1, "robot": [4.245294578127794, -4.1688791251742745e-08, 0.0], "error": ""}
+{"case": "center", "event": "stage", "stage": "closing_door", "elapsed": 29.6, "robot": [4.245294578127794, -4.1688791251742745e-08, 0.0], "error": ""}
+{"case": "center", "event": "stage", "stage": "inside_door_closed", "elapsed": 32.4, "robot": [4.245294578127794, -4.1688791251742745e-08, 0.0], "error": ""}
+{"case": "center", "event": "PASS", "events": ["waiting_for_open_door", "aligning_at_door", "entering", "settling_inside", "closing_door", "inside_door_closed"], "robot": [4.245294578127794, -4.1688791251742745e-08, 0.0]}
+{"case": "left", "event": "start", "pose": [1.2531124828827762, 0.31795336273726144, -1.4370711289866445e-19]}
+{"case": "left", "event": "stage", "stage": "waiting_for_open_door", "elapsed": 0.0, "robot": [1.2531124828827762, 0.31795336273726144, 0.0], "error": ""}
+{"case": "left", "event": "stage", "stage": "aligning_at_door", "elapsed": 3.6, "robot": [1.2531124828827762, 0.31795336273726144, 0.0], "error": ""}
+{"case": "left", "event": "stage", "stage": "entering", "elapsed": 11.5, "robot": [2.1947146909820625, 0.1982206434348993, 0.0], "error": ""}
+{"case": "left", "event": "stage", "stage": "settling_inside", "elapsed": 28.6, "robot": [4.230940786214125, -0.02713492837803816, 0.0], "error": ""}
+{"case": "left", "event": "stage", "stage": "closing_door", "elapsed": 29.9, "robot": [4.230940786214125, -0.02713492837803816, 0.0], "error": ""}
+{"case": "left", "event": "stage", "stage": "inside_door_closed", "elapsed": 33.5, "robot": [4.230940786214125, -0.02713492837803816, 0.0], "error": ""}
+{"case": "left", "event": "PASS", "events": ["waiting_for_open_door", "aligning_at_door", "entering", "settling_inside", "closing_door", "inside_door_closed"], "robot": [4.230940786214125, -0.02713492837803816, 0.0]}
+{"case": "right", "event": "start", "pose": [1.2529406824457254, -0.31757413646343274, 1.503733342819052e-10]}
+{"case": "right", "event": "stage", "stage": "waiting_for_open_door", "elapsed": 0.0, "robot": [1.2529406824457254, -0.31757413646343274, 0.0], "error": ""}
+{"case": "right", "event": "stage", "stage": "aligning_at_door", "elapsed": 3.6, "robot": [1.2529406824457254, -0.31757413646343274, 0.0], "error": ""}
+{"case": "right", "event": "stage", "stage": "entering", "elapsed": 11.0, "robot": [2.1071296020136123, -0.17288957253038548, 0.0], "error": ""}
+{"case": "right", "event": "stage", "stage": "settling_inside", "elapsed": 28.7, "robot": [4.218001921513693, 0.0485577057808741, 0.0], "error": ""}
+{"case": "right", "event": "stage", "stage": "closing_door", "elapsed": 29.7, "robot": [4.218001921513693, 0.0485577057808741, 0.0], "error": ""}
+{"case": "right", "event": "stage", "stage": "inside_door_closed", "elapsed": 33.1, "robot": [4.218001921513693, 0.0485577057808741, 0.0], "error": ""}
+{"case": "right", "event": "PASS", "events": ["waiting_for_open_door", "aligning_at_door", "entering", "settling_inside", "closing_door", "inside_door_closed"], "robot": [4.218001921513693, 0.0485577057808741, 0.0]}
+{"case": "angled", "event": "start", "pose": [1.253539426352454, 0.17388162269013555, 0.32671778772249654]}
+{"case": "angled", "event": "stage", "stage": "waiting_for_open_door", "elapsed": 0.0, "robot": [1.253539426352454, 0.17388162269013555, 0.0], "error": ""}
+{"case": "angled", "event": "stage", "stage": "aligning_at_door", "elapsed": 3.6, "robot": [1.2562728456224468, 0.17478871645284907, 0.0], "error": ""}
+{"case": "angled", "event": "stage", "stage": "entering", "elapsed": 11.0, "robot": [2.1548863860537097, 0.16135981614998604, 0.0], "error": ""}
+{"case": "angled", "event": "stage", "stage": "settling_inside", "elapsed": 28.1, "robot": [4.203601256071238, 0.029291166334574223, 0.0], "error": ""}
+{"case": "angled", "event": "stage", "stage": "closing_door", "elapsed": 29.1, "robot": [4.203601256071238, 0.029291166334574223, 0.0], "error": ""}
+{"case": "angled", "event": "stage", "stage": "inside_door_closed", "elapsed": 32.5, "robot": [4.203601256071238, 0.029291166334574223, 0.0], "error": ""}
+{"case": "angled", "event": "PASS", "events": ["waiting_for_open_door", "aligning_at_door", "entering", "settling_inside", "closing_door", "inside_door_closed"], "robot": [4.203601256071238, 0.029291166334574223, 0.0]}
+{"event": "ROUND_PASS"}
+{"event": "SAFETY_START", "device": {"online": true, "battery": null, "bagStatus": "idle", "bagFileReady": false, "mapStatus": "success", "navStatus": "idle", "rawState": "idle", "navNodesRunning": true, "navWanted": true, "navMode": "elevator_manual", "navModeRunning": "elevator_manual", "navMissionHeld": true, "elevatorAvailable": true, "elevatorEntry": {"stage": "waiting_for_open_door", "error": "", "driving": false}, "chargeState": "unknown", "externallyPowered": null, "mappingPercent": 0.0, "onStairs": false, "navPaused": true, "navActive": false}, "lift": {"height": 0.0, "floor": 0, "target": 0, "motion": "idle", "door_fraction": 0.0, "door_open": false, "confirmed": true, "robot": [1.2848624436768157, -3.5042937337201395e-06, 0.0], "error": ""}}
+{"event": "SAFETY_OPEN", "response": {"ok": true}}
+{"event": "DOOR_INTERRUPTION_PASS", "robot": [2.0481826208074745, -3.512483879305203e-06, 0.0], "status": {"stage": "stopped", "error": "Entry interrupted: manual control, mode change, stale pose or door state", "driving": false}}
+{"event": "NO_UNEXPECTED_RETRY_PASS"}
+{"event": "READY_FOR_USER", "robot": [1.2835074575676377, -6.810862540204875e-08, 0.0]}
+{"event": "ITERATION_PASS", "iteration": 2}
+{"event": "ROUND_START", "iteration": 3}
+{"case": "center", "event": "start", "pose": [1.2835074575676377, -6.810862540204875e-08, -5.00210296296582e-11]}
+{"case": "center", "event": "stage", "stage": "waiting_for_open_door", "elapsed": 0.0, "robot": [1.2835074575676377, -6.810862540204875e-08, 0.0], "error": ""}
+{"case": "center", "event": "stage", "stage": "aligning_at_door", "elapsed": 3.3, "robot": [1.2835074575676377, -6.810862540204875e-08, 0.0], "error": ""}
+{"case": "center", "event": "stage", "stage": "entering", "elapsed": 10.0, "robot": [2.0492662136830075, -6.814692944347757e-08, 0.0], "error": ""}
+{"case": "center", "event": "stage", "stage": "settling_inside", "elapsed": 28.1, "robot": [4.213476949975533, -6.825518549284261e-08, 0.0], "error": ""}
+{"case": "center", "event": "stage", "stage": "closing_door", "elapsed": 29.4, "robot": [4.213476949975533, -6.825518549284261e-08, 0.0], "error": ""}
+{"case": "center", "event": "stage", "stage": "inside_door_closed", "elapsed": 33.0, "robot": [4.213476949975533, -6.825518549284261e-08, 0.0], "error": ""}
+{"case": "center", "event": "PASS", "events": ["waiting_for_open_door", "aligning_at_door", "entering", "settling_inside", "closing_door", "inside_door_closed"], "robot": [4.213476949975533, -6.825518549284261e-08, 0.0]}
+{"case": "left", "event": "start", "pose": [1.253021816446742, 0.3157838940008939, -2.9199195643030935e-19]}
+{"case": "left", "event": "stage", "stage": "waiting_for_open_door", "elapsed": 0.0, "robot": [1.253021816446742, 0.3157838940008939, 0.0], "error": ""}
+{"case": "left", "event": "stage", "stage": "aligning_at_door", "elapsed": 3.6, "robot": [1.253021816446742, 0.3157838940008939, 0.0], "error": ""}
+{"case": "left", "event": "stage", "stage": "entering", "elapsed": 11.5, "robot": [2.187634299614895, 0.20316703645416703, 0.0], "error": ""}
+{"case": "left", "event": "stage", "stage": "settling_inside", "elapsed": 29.1, "robot": [4.243459942901564, -0.012619227775822207, 0.0], "error": ""}
+{"case": "left", "event": "stage", "stage": "closing_door", "elapsed": 30.1, "robot": [4.243459942901564, -0.012619227775822207, 0.0], "error": ""}
+{"case": "left", "event": "stage", "stage": "inside_door_closed", "elapsed": 33.7, "robot": [4.243459942901564, -0.012619227775822207, 0.0], "error": ""}
+{"case": "left", "event": "PASS", "events": ["waiting_for_open_door", "aligning_at_door", "entering", "settling_inside", "closing_door", "inside_door_closed"], "robot": [4.243459942901564, -0.012619227775822207, 0.0]}
+{"case": "right", "event": "start", "pose": [1.2529366902348817, -0.3164733516708897, 4.126635969800489e-11]}
+{"case": "right", "event": "stage", "stage": "waiting_for_open_door", "elapsed": 0.0, "robot": [1.2529366902348817, -0.3164733516708897, 0.0], "error": ""}
+{"case": "right", "event": "stage", "stage": "aligning_at_door", "elapsed": 3.6, "robot": [1.2546966815426386, -0.31646782025135184, 0.0], "error": ""}
+{"case": "right", "event": "stage", "stage": "entering", "elapsed": 11.5, "robot": [2.1844461852245423, -0.189887746450286, 0.0], "error": ""}
+{"case": "right", "event": "stage", "stage": "settling_inside", "elapsed": 28.6, "robot": [4.2364671982645925, 0.0263104226082365, 0.0], "error": ""}
+{"case": "right", "event": "stage", "stage": "closing_door", "elapsed": 29.6, "robot": [4.2364671982645925, 0.0263104226082365, 0.0], "error": ""}
+{"case": "right", "event": "stage", "stage": "inside_door_closed", "elapsed": 32.9, "robot": [4.2364671982645925, 0.0263104226082365, 0.0], "error": ""}
+{"case": "right", "event": "PASS", "events": ["waiting_for_open_door", "aligning_at_door", "entering", "settling_inside", "closing_door", "inside_door_closed"], "robot": [4.2364671982645925, 0.0263104226082365, 0.0]}
+{"case": "angled", "event": "start", "pose": [1.2541457859721115, 0.17275309531954852, 0.3254642178047436]}
+{"case": "angled", "event": "stage", "stage": "waiting_for_open_door", "elapsed": 0.0, "robot": [1.2541457859721115, 0.17275309531954852, 0.0], "error": ""}
+{"case": "angled", "event": "stage", "stage": "aligning_at_door", "elapsed": 3.6, "robot": [1.2541457859721115, 0.17275309531954852, 0.0], "error": ""}
+{"case": "angled", "event": "stage", "stage": "entering", "elapsed": 11.0, "robot": [2.1285201780643295, 0.1755849803220463, 0.0], "error": ""}
+{"case": "angled", "event": "stage", "stage": "settling_inside", "elapsed": 28.6, "robot": [4.248085693091424, 0.08855809679680814, 0.0], "error": ""}
+{"case": "angled", "event": "stage", "stage": "closing_door", "elapsed": 29.6, "robot": [4.248085693091424, 0.08855809679680814, 0.0], "error": ""}
+{"case": "angled", "event": "stage", "stage": "inside_door_closed", "elapsed": 33.2, "robot": [4.248085693091424, 0.08855809679680814, 0.0], "error": ""}
+{"case": "angled", "event": "PASS", "events": ["waiting_for_open_door", "aligning_at_door", "entering", "settling_inside", "closing_door", "inside_door_closed"], "robot": [4.248085693091424, 0.08855809679680814, 0.0]}
+{"event": "ROUND_PASS"}
+{"event": "SAFETY_START", "device": {"online": true, "battery": null, "bagStatus": "idle", "bagFileReady": false, "mapStatus": "success", "navStatus": "idle", "rawState": "idle", "navNodesRunning": true, "navWanted": true, "navMode": "elevator_manual", "navModeRunning": "elevator_manual", "navMissionHeld": true, "elevatorAvailable": true, "elevatorEntry": {"stage": "waiting_for_open_door", "error": "", "driving": false}, "chargeState": "unknown", "externallyPowered": null, "mappingPercent": 0.0, "onStairs": false, "navPaused": true, "navActive": false}, "lift": {"height": 0.0, "floor": 0, "target": 0, "motion": "idle", "door_fraction": 0.0, "door_open": false, "confirmed": true, "robot": [1.2831806946106046, -1.2299945596786404e-06, 0.0], "error": ""}}
+{"event": "SAFETY_OPEN", "response": {"ok": true}}
+{"event": "DOOR_INTERRUPTION_PASS", "robot": [2.0538499573635076, -1.23371248450709e-06, 0.0], "status": {"stage": "stopped", "error": "Entry interrupted: manual control, mode change, stale pose or door state", "driving": false}}
+{"event": "NO_UNEXPECTED_RETRY_PASS"}
+{"event": "READY_FOR_USER", "robot": [1.2824363678415227, -2.2388873040770762e-08, 0.0]}
+{"event": "ITERATION_PASS", "iteration": 3}
+{"event": "ROUND_START", "iteration": 4}
+{"case": "center", "event": "start", "pose": [1.2824363678415227, -2.2388873040770762e-08, -2.0526531802461977e-11]}
+{"case": "center", "event": "stage", "stage": "waiting_for_open_door", "elapsed": 0.0, "robot": [1.2824363678415227, -2.2388873040770762e-08, 0.0], "error": ""}
+{"case": "center", "event": "stage", "stage": "aligning_at_door", "elapsed": 3.6, "robot": [1.28451636784151, -2.238891573595691e-08, 0.0], "error": ""}
+{"case": "center", "event": "stage", "stage": "entering", "elapsed": 10.0, "robot": [2.044354756878468, -2.2404512582814222e-08, 0.0], "error": ""}
+{"case": "center", "event": "stage", "stage": "settling_inside", "elapsed": 28.1, "robot": [4.222132746605285, -2.2449214811979055e-08, 0.0], "error": ""}
+{"case": "center", "event": "stage", "stage": "closing_door", "elapsed": 29.1, "robot": [4.222132746605285, -2.2449214811979055e-08, 0.0], "error": ""}
+{"case": "center", "event": "stage", "stage": "inside_door_closed", "elapsed": 32.7, "robot": [4.222132746605285, -2.2449214811979055e-08, 0.0], "error": ""}
+{"case": "center", "event": "PASS", "events": ["waiting_for_open_door", "aligning_at_door", "entering", "settling_inside", "closing_door", "inside_door_closed"], "robot": [4.222132746605285, -2.2449214811979055e-08, 0.0]}
+{"case": "left", "event": "start", "pose": [1.253256958977971, 0.3161378969487177, -1.1216128478783477e-19]}
+{"case": "left", "event": "stage", "stage": "waiting_for_open_door", "elapsed": 0.0, "robot": [1.253256958977971, 0.3161378969487177, 0.0], "error": ""}
+{"case": "left", "event": "stage", "stage": "aligning_at_door", "elapsed": 3.6, "robot": [1.253256958977971, 0.3161378969487177, 0.0], "error": ""}
+{"case": "left", "event": "stage", "stage": "entering", "elapsed": 11.0, "robot": [2.1301012595341566, 0.20123894976104195, 0.0], "error": ""}
+{"case": "left", "event": "stage", "stage": "settling_inside", "elapsed": 28.6, "robot": [4.237361456921084, -0.036443181124691554, 0.0], "error": ""}
+{"case": "left", "event": "stage", "stage": "closing_door", "elapsed": 29.6, "robot": [4.237361456921084, -0.036443181124691554, 0.0], "error": ""}
+{"case": "left", "event": "stage", "stage": "inside_door_closed", "elapsed": 33.2, "robot": [4.237361456921084, -0.036443181124691554, 0.0], "error": ""}
+{"case": "left", "event": "PASS", "events": ["waiting_for_open_door", "aligning_at_door", "entering", "settling_inside", "closing_door", "inside_door_closed"], "robot": [4.237361456921084, -0.036443181124691554, 0.0]}
+{"case": "right", "event": "start", "pose": [1.2527632032017606, -0.31811703691287924, 9.824213372215033e-11]}
+{"case": "right", "event": "stage", "stage": "waiting_for_open_door", "elapsed": 0.0, "robot": [1.2527632032017606, -0.31811703691287924, 0.0], "error": ""}
+{"case": "right", "event": "stage", "stage": "aligning_at_door", "elapsed": 3.6, "robot": [1.2527632032017606, -0.31811703691287924, 0.0], "error": ""}
+{"case": "right", "event": "stage", "stage": "entering", "elapsed": 11.0, "robot": [2.1311636157941813, -0.19092656709748174, 0.0], "error": ""}
+{"case": "right", "event": "stage", "stage": "settling_inside", "elapsed": 28.7, "robot": [4.206906850318921, 0.03636788828081359, 0.0], "error": ""}
+{"case": "right", "event": "stage", "stage": "closing_door", "elapsed": 29.7, "robot": [4.206906850318921, 0.03636788828081359, 0.0], "error": ""}
+{"case": "right", "event": "stage", "stage": "inside_door_closed", "elapsed": 33.0, "robot": [4.206906850318921, 0.03636788828081359, 0.0], "error": ""}
+{"case": "right", "event": "PASS", "events": ["waiting_for_open_door", "aligning_at_door", "entering", "settling_inside", "closing_door", "inside_door_closed"], "robot": [4.206906850318921, 0.03636788828081359, 0.0]}
+{"case": "angled", "event": "start", "pose": [1.2543126127881101, 0.17173624954290814, 0.3241301471277442]}
+{"case": "angled", "event": "stage", "stage": "waiting_for_open_door", "elapsed": 0.0, "robot": [1.2543126127881101, 0.17173624954290814, 0.0], "error": ""}
+{"case": "angled", "event": "stage", "stage": "aligning_at_door", "elapsed": 3.6, "robot": [1.2556788040680673, 0.17219135544989667, 0.0], "error": ""}
+{"case": "angled", "event": "stage", "stage": "entering", "elapsed": 11.0, "robot": [2.157071484219591, 0.1702764211297134, 0.0], "error": ""}
+{"case": "angled", "event": "stage", "stage": "settling_inside", "elapsed": 28.1, "robot": [4.216881656964711, 0.06097789362228671, 0.0], "error": ""}
+{"case": "angled", "event": "stage", "stage": "closing_door", "elapsed": 29.1, "robot": [4.216881656964711, 0.06097789362228671, 0.0], "error": ""}
+{"case": "angled", "event": "stage", "stage": "inside_door_closed", "elapsed": 32.4, "robot": [4.216881656964711, 0.06097789362228671, 0.0], "error": ""}
+{"case": "angled", "event": "PASS", "events": ["waiting_for_open_door", "aligning_at_door", "entering", "settling_inside", "closing_door", "inside_door_closed"], "robot": [4.216881656964711, 0.06097789362228671, 0.0]}
+{"event": "ROUND_PASS"}
+{"event": "SAFETY_START", "device": {"online": true, "battery": null, "bagStatus": "idle", "bagFileReady": false, "mapStatus": "success", "navStatus": "idle", "rawState": "idle", "navNodesRunning": true, "navWanted": true, "navMode": "elevator_manual", "navModeRunning": "elevator_manual", "navMissionHeld": true, "elevatorAvailable": true, "elevatorEntry": {"stage": "waiting_for_open_door", "error": "", "driving": false}, "chargeState": "unknown", "externallyPowered": null, "mappingPercent": 0.0, "onStairs": false, "navPaused": true, "navActive": false}, "lift": {"height": 0.0, "floor": 0, "target": 0, "motion": "idle", "door_fraction": 0.0, "door_open": false, "confirmed": true, "robot": [1.2842979256085918, -2.3127360553427726e-06, 0.0], "error": ""}}
+{"event": "SAFETY_OPEN", "response": {"ok": true}}
+{"event": "DOOR_INTERRUPTION_PASS", "robot": [2.061886104787583, -2.3187775620132093e-06, 0.0], "status": {"stage": "stopped", "error": "Entry interrupted: manual control, mode change, stale pose or door state", "driving": false}}
+{"event": "NO_UNEXPECTED_RETRY_PASS"}
+{"event": "READY_FOR_USER", "robot": [1.2843441056124645, -4.4007196560076477e-08, 0.0]}
+{"event": "ITERATION_PASS", "iteration": 4}
+{"event": "ROUND_START", "iteration": 5}
+{"case": "center", "event": "start", "pose": [1.2843441056124645, -4.4007196560076477e-08, -3.533497439324228e-11]}
+{"case": "center", "event": "stage", "stage": "waiting_for_open_door", "elapsed": 0.0, "robot": [1.2843441056124645, -4.4007196560076477e-08, 0.0], "error": ""}
+{"case": "center", "event": "stage", "stage": "aligning_at_door", "elapsed": 3.6, "robot": [1.285864105612465, -4.4007250269237554e-08, 0.0], "error": ""}
+{"case": "center", "event": "stage", "stage": "entering", "elapsed": 9.9, "robot": [2.0600640800104135, -4.4034606605508176e-08, 0.0], "error": ""}
+{"case": "center", "event": "stage", "stage": "settling_inside", "elapsed": 28.1, "robot": [4.234631133623711, -4.411144487666405e-08, 0.0], "error": ""}
+{"case": "center", "event": "stage", "stage": "closing_door", "elapsed": 29.1, "robot": [4.234631133623711, -4.411144487666405e-08, 0.0], "error": ""}
+{"case": "center", "event": "stage", "stage": "inside_door_closed", "elapsed": 32.4, "robot": [4.234631133623711, -4.411144487666405e-08, 0.0], "error": ""}
+{"case": "center", "event": "PASS", "events": ["waiting_for_open_door", "aligning_at_door", "entering", "settling_inside", "closing_door", "inside_door_closed"], "robot": [4.234631133623711, -4.411144487666405e-08, 0.0]}
+{"case": "left", "event": "start", "pose": [1.2531735544023965, 0.31586351932141116, -1.872221460993258e-19]}
+{"case": "left", "event": "stage", "stage": "waiting_for_open_door", "elapsed": 0.0, "robot": [1.2531735544023965, 0.31586351932141116, 0.0], "error": ""}
+{"case": "left", "event": "stage", "stage": "aligning_at_door", "elapsed": 3.6, "robot": [1.2531735544023965, 0.31586351932141116, 0.0], "error": ""}
+{"case": "left", "event": "stage", "stage": "entering", "elapsed": 11.7, "robot": [2.1919441349557123, 0.21214078895459273, 0.0], "error": ""}
+{"case": "left", "event": "stage", "stage": "settling_inside", "elapsed": 28.6, "robot": [4.237049406898454, -0.021424504701604973, 0.0], "error": ""}
+{"case": "left", "event": "stage", "stage": "closing_door", "elapsed": 29.6, "robot": [4.237049406898454, -0.021424504701604973, 0.0], "error": ""}
+{"case": "left", "event": "stage", "stage": "inside_door_closed", "elapsed": 33.2, "robot": [4.237049406898454, -0.021424504701604973, 0.0], "error": ""}
+{"case": "left", "event": "PASS", "events": ["waiting_for_open_door", "aligning_at_door", "entering", "settling_inside", "closing_door", "inside_door_closed"], "robot": [4.237049406898454, -0.021424504701604973, 0.0]}
+{"case": "right", "event": "start", "pose": [1.252770977972959, -0.3186113322807399, -4.719317325872969e-10]}
+{"case": "right", "event": "stage", "stage": "waiting_for_open_door", "elapsed": 0.0, "robot": [1.252770977972959, -0.3186113322807399, 0.0], "error": ""}
+{"case": "right", "event": "stage", "stage": "aligning_at_door", "elapsed": 3.6, "robot": [1.252770977972959, -0.3186113322807399, 0.0], "error": ""}
+{"case": "right", "event": "stage", "stage": "entering", "elapsed": 11.0, "robot": [2.1141144835706243, -0.17898338628281685, 0.0], "error": ""}
+{"case": "right", "event": "stage", "stage": "settling_inside", "elapsed": 28.7, "robot": [4.2220292319920905, 0.04560026967191217, 0.0], "error": ""}
+{"case": "right", "event": "stage", "stage": "closing_door", "elapsed": 30.2, "robot": [4.2220292319920905, 0.04560026967191217, 0.0], "error": ""}
+{"case": "right", "event": "stage", "stage": "inside_door_closed", "elapsed": 33.5, "robot": [4.2220292319920905, 0.04560026967191217, 0.0], "error": ""}
+{"case": "right", "event": "PASS", "events": ["waiting_for_open_door", "aligning_at_door", "entering", "settling_inside", "closing_door", "inside_door_closed"], "robot": [4.2220292319920905, 0.04560026967191217, 0.0]}
+{"case": "angled", "event": "start", "pose": [1.254339114604174, 0.17190205622552787, 0.32441675703440515]}
+{"case": "angled", "event": "stage", "stage": "waiting_for_open_door", "elapsed": 0.0, "robot": [1.254339114604174, 0.17190205622552787, 0.0], "error": ""}
+{"case": "angled", "event": "stage", "stage": "aligning_at_door", "elapsed": 3.3, "robot": [1.254339114604174, 0.17190205622552787, 0.0], "error": ""}
+{"case": "angled", "event": "stage", "stage": "entering", "elapsed": 11.0, "robot": [2.1327125044880058, 0.17072341558600923, 0.0], "error": ""}
+{"case": "angled", "event": "stage", "stage": "settling_inside", "elapsed": 28.4, "robot": [4.25149372310667, 0.07298359599381052, 0.0], "error": ""}
+{"case": "angled", "event": "stage", "stage": "closing_door", "elapsed": 29.4, "robot": [4.25149372310667, 0.07298359599381052, 0.0], "error": ""}
+{"case": "angled", "event": "stage", "stage": "inside_door_closed", "elapsed": 32.9, "robot": [4.25149372310667, 0.07298359599381052, 0.0], "error": ""}
+{"case": "angled", "event": "PASS", "events": ["waiting_for_open_door", "aligning_at_door", "entering", "settling_inside", "closing_door", "inside_door_closed"], "robot": [4.25149372310667, 0.07298359599381052, 0.0]}
+{"event": "ROUND_PASS"}
+{"event": "SAFETY_START", "device": {"online": true, "battery": null, "bagStatus": "idle", "bagFileReady": false, "mapStatus": "success", "navStatus": "idle", "rawState": "idle", "navNodesRunning": true, "navWanted": true, "navMode": "elevator_manual", "navModeRunning": "elevator_manual", "navMissionHeld": true, "elevatorAvailable": true, "elevatorEntry": {"stage": "waiting_for_open_door", "error": "", "driving": false}, "chargeState": "unknown", "externallyPowered": null, "mappingPercent": 0.0, "onStairs": false, "navPaused": true, "navActive": false}, "lift": {"height": 0.0, "floor": 0, "target": 0, "motion": "idle", "door_fraction": 0.0, "door_open": false, "confirmed": true, "robot": [1.2823909148450652, -1.5545069481586663e-06, 0.0], "error": ""}}
+{"event": "SAFETY_OPEN", "response": {"ok": true}}
+{"event": "DOOR_INTERRUPTION_PASS", "robot": [2.0679859320479705, -1.5586302134670006e-06, 0.0], "status": {"stage": "stopped", "error": "Entry interrupted: manual control, mode change, stale pose or door state", "driving": false}}
+{"event": "NO_UNEXPECTED_RETRY_PASS"}
+{"event": "READY_FOR_USER", "robot": [1.2832602098922212, -2.7980356816207252e-08, 0.0]}
+{"event": "ITERATION_PASS", "iteration": 5}
+{"event": "ROUND_START", "iteration": 6}
+{"case": "center", "event": "start", "pose": [1.2832602098922212, -2.7980356816207252e-08, -2.2045686810897835e-11]}
+{"case": "center", "event": "stage", "stage": "waiting_for_open_door", "elapsed": 0.0, "robot": [1.2832602098922212, -2.7980356816207252e-08, 0.0], "error": ""}
+{"case": "center", "event": "stage", "stage": "aligning_at_door", "elapsed": 3.3, "robot": [1.2832602098922212, -2.7980356816207252e-08, 0.0], "error": ""}
+{"case": "center", "event": "stage", "stage": "entering", "elapsed": 10.0, "robot": [2.053955043873814, -2.7997347313143982e-08, 0.0], "error": ""}
+{"case": "center", "event": "stage", "stage": "settling_inside", "elapsed": 27.9, "robot": [4.223284132987542, -2.8045171662832367e-08, 0.0], "error": ""}
+{"case": "center", "event": "stage", "stage": "closing_door", "elapsed": 29.4, "robot": [4.223284132987542, -2.8045171662832367e-08, 0.0], "error": ""}
+{"case": "center", "event": "stage", "stage": "inside_door_closed", "elapsed": 33.0, "robot": [4.223284132987542, -2.8045171662832367e-08, 0.0], "error": ""}
+{"case": "center", "event": "PASS", "events": ["waiting_for_open_door", "aligning_at_door", "entering", "settling_inside", "closing_door", "inside_door_closed"], "robot": [4.223284132987542, -2.8045171662832367e-08, 0.0]}
+{"case": "left", "event": "start", "pose": [1.2532540244889971, 0.3159387669161042, -1.2635167125496923e-19]}
+{"case": "left", "event": "stage", "stage": "waiting_for_open_door", "elapsed": 0.0, "robot": [1.2532540244889971, 0.3159387669161042, 0.0], "error": ""}
+{"case": "left", "event": "stage", "stage": "aligning_at_door", "elapsed": 3.6, "robot": [1.2532540244889971, 0.3159387669161042, 0.0], "error": ""}
+{"case": "left", "event": "stage", "stage": "entering", "elapsed": 11.5, "robot": [2.198987757818476, 0.2078291463395265, 0.0], "error": ""}
+{"case": "left", "event": "stage", "stage": "settling_inside", "elapsed": 28.6, "robot": [4.236460069695216, -0.03312441762606245, 0.0], "error": ""}
+{"case": "left", "event": "stage", "stage": "closing_door", "elapsed": 30.1, "robot": [4.246589482329857, -0.03432233234665406, 0.0], "error": ""}
+{"case": "left", "event": "stage", "stage": "inside_door_closed", "elapsed": 33.7, "robot": [4.246589482329857, -0.03432233234665406, 0.0], "error": ""}
+{"case": "left", "event": "PASS", "events": ["waiting_for_open_door", "aligning_at_door", "entering", "settling_inside", "closing_door", "inside_door_closed"], "robot": [4.246589482329857, -0.03432233234665406, 0.0]}
+{"case": "right", "event": "start", "pose": [1.252966370124748, -0.3179254401298294, -5.240555269121552e-10]}
+{"case": "right", "event": "stage", "stage": "waiting_for_open_door", "elapsed": 0.0, "robot": [1.252966370124748, -0.3179254401298294, 0.0], "error": ""}
+{"case": "right", "event": "stage", "stage": "aligning_at_door", "elapsed": 3.6, "robot": [1.252966370124748, -0.3179254401298294, 0.0], "error": ""}
+{"case": "right", "event": "stage", "stage": "entering", "elapsed": 11.0, "robot": [2.1100286204561223, -0.15578336745921725, 0.0], "error": ""}
+{"case": "right", "event": "stage", "stage": "settling_inside", "elapsed": 28.6, "robot": [4.2306084740084415, 0.07931964173705874, 0.0], "error": ""}
+{"case": "right", "event": "stage", "stage": "closing_door", "elapsed": 30.1, "robot": [4.2306084740084415, 0.07931964173705874, 0.0], "error": ""}
+{"case": "right", "event": "stage", "stage": "inside_door_closed", "elapsed": 33.7, "robot": [4.2306084740084415, 0.07931964173705874, 0.0], "error": ""}
+{"case": "right", "event": "PASS", "events": ["waiting_for_open_door", "aligning_at_door", "entering", "settling_inside", "closing_door", "inside_door_closed"], "robot": [4.2306084740084415, 0.07931964173705874, 0.0]}
+{"case": "angled", "event": "start", "pose": [1.2536684586969726, 0.17412816439216872, 0.3269677284641215]}
+{"case": "angled", "event": "stage", "stage": "waiting_for_open_door", "elapsed": 0.0, "robot": [1.2536684586969726, 0.17412816439216872, 0.0], "error": ""}
+{"case": "angled", "event": "stage", "stage": "aligning_at_door", "elapsed": 3.3, "robot": [1.2536684586969726, 0.17412816439216872, 0.0], "error": ""}
+{"case": "angled", "event": "stage", "stage": "entering", "elapsed": 11.0, "robot": [2.147715037159495, 0.17937438183534127, 0.0], "error": ""}
+{"case": "angled", "event": "stage", "stage": "settling_inside", "elapsed": 28.4, "robot": [4.264891476065272, 0.10249440145740883, 0.0], "error": ""}
+{"case": "angled", "event": "stage", "stage": "closing_door", "elapsed": 29.9, "robot": [4.264891476065272, 0.10249440145740883, 0.0], "error": ""}
+{"case": "angled", "event": "stage", "stage": "inside_door_closed", "elapsed": 33.5, "robot": [4.264891476065272, 0.10249440145740883, 0.0], "error": ""}
+{"case": "angled", "event": "PASS", "events": ["waiting_for_open_door", "aligning_at_door", "entering", "settling_inside", "closing_door", "inside_door_closed"], "robot": [4.264891476065272, 0.10249440145740883, 0.0]}
+{"event": "ROUND_PASS"}
+{"event": "SAFETY_START", "device": {"online": true, "battery": null, "bagStatus": "idle", "bagFileReady": false, "mapStatus": "success", "navStatus": "idle", "rawState": "idle", "navNodesRunning": true, "navWanted": true, "navMode": "elevator_manual", "navModeRunning": "elevator_manual", "navMissionHeld": true, "elevatorAvailable": true, "elevatorEntry": {"stage": "waiting_for_open_door", "error": "", "driving": false}, "chargeState": "unknown", "externallyPowered": null, "mappingPercent": 0.0, "onStairs": false, "navPaused": true, "navActive": false}, "lift": {"height": 0.0, "floor": 0, "target": 0, "motion": "idle", "door_fraction": 0.0, "door_open": false, "confirmed": true, "robot": [1.2845730302394256, -8.828776239306894e-07, 0.0], "error": ""}}
+{"event": "SAFETY_OPEN", "response": {"ok": true}}
+{"event": "DOOR_INTERRUPTION_PASS", "robot": [2.049073629146874, -8.860639022009789e-07, 0.0], "status": {"stage": "stopped", "error": "Entry interrupted: manual control, mode change, stale pose or door state", "driving": false}}
+{"event": "NO_UNEXPECTED_RETRY_PASS"}
+{"event": "READY_FOR_USER", "robot": [1.2827225565841676, -1.6865217690899638e-08, 0.0]}
+{"event": "ITERATION_PASS", "iteration": 6}
+{"event": "ROUND_START", "iteration": 7}
+{"case": "center", "event": "start", "pose": [1.2827225565841676, -1.6865217690899638e-08, -1.909513655732217e-11]}
+{"case": "center", "event": "stage", "stage": "waiting_for_open_door", "elapsed": 0.0, "robot": [1.2827225565841676, -1.6865217690899638e-08, 0.0], "error": ""}
+{"case": "center", "event": "stage", "stage": "aligning_at_door", "elapsed": 3.6, "robot": [1.2827225565841676, -1.6865217690899638e-08, 0.0], "error": ""}
+{"case": "center", "event": "stage", "stage": "entering", "elapsed": 10.0, "robot": [2.0465591581337264, -1.6879803255113724e-08, 0.0], "error": ""}
+{"case": "center", "event": "stage", "stage": "settling_inside", "elapsed": 28.1, "robot": [4.255155226605754, -1.6921976698641222e-08, 0.0], "error": ""}
+{"case": "center", "event": "stage", "stage": "closing_door", "elapsed": 29.6, "robot": [4.255155226605754, -1.6921976698641222e-08, 0.0], "error": ""}
+{"case": "center", "event": "stage", "stage": "inside_door_closed", "elapsed": 33.2, "robot": [4.255155226605754, -1.6921976698641222e-08, 0.0], "error": ""}
+{"case": "center", "event": "PASS", "events": ["waiting_for_open_door", "aligning_at_door", "entering", "settling_inside", "closing_door", "inside_door_closed"], "robot": [4.255155226605754, -1.6921976698641222e-08, 0.0]}
+{"case": "left", "event": "start", "pose": [1.2529873334120654, 0.31815408125522343, -8.526332247050303e-20]}
+{"case": "left", "event": "stage", "stage": "waiting_for_open_door", "elapsed": 0.0, "robot": [1.2529873334120654, 0.31815408125522343, 0.0], "error": ""}
+{"case": "left", "event": "stage", "stage": "aligning_at_door", "elapsed": 3.6, "robot": [1.2529873334120654, 0.31815408125522343, 0.0], "error": ""}
+{"case": "left", "event": "stage", "stage": "stopped", "elapsed": 53.7, "robot": [2.1338616245442776, 0.039985967705242785, 0.0], "error": "Entry stopped or timed out during aligning_at_door (planner distance 0.207 m); leave Elevator mode to re-arm"}
+{"event": "FAIL", "error": "left: Entry stopped or timed out during aligning_at_door (planner distance 0.207 m); leave Elevator mode to re-arm", "device": {"online": true, "battery": null, "bagStatus": "idle", "bagFileReady": false, "mapStatus": "success", "navStatus": "idle", "rawState": "idle", "navNodesRunning": true, "navWanted": true, "navMode": "elevator_manual", "navModeRunning": "elevator_manual", "navMissionHeld": true, "elevatorAvailable": true, "elevatorEntry": {"stage": "stopped", "error": "Entry stopped or timed out during aligning_at_door (planner distance 0.207 m); leave Elevator mode to re-arm", "driving": false}, "chargeState": "unknown", "externallyPowered": null, "mappingPercent": 0.0, "onStairs": false, "navPaused": true, "navActive": false}, "lift": {"height": 0.0, "floor": 0, "target": 0, "motion": "idle", "door_fraction": 1.0, "door_open": true, "confirmed": true, "robot": [2.1338616245442776, 0.039985967705242785, 0.0], "error": ""}}
+Traceback (most recent call last):
+  File "/runtime/elevator_repeat10.py", line 103, in <module>
+    try:asyncio.run(repeat())
+  File "/usr/lib/python3.10/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 649, in run_until_complete
+    return future.result()
+  File "/runtime/elevator_repeat10.py", line 99, in repeat
+    await matrix_round()
+  File "/runtime/elevator_repeat10.py", line 61, in matrix_round
+    if stage=='stopped':raise RuntimeError(name+': '+entry['error'])
+RuntimeError: left: Entry stopped or timed out during aligning_at_door (planner distance 0.207 m); leave Elevator mode to re-arm

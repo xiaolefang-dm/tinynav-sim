@@ -1,0 +1,50 @@
+{"event": "ROUND_START", "iteration": 1}
+{"case": "center", "event": "start", "pose": [1.2814959037156588, -3.104768762343813e-08, -2.4485421993423986e-11]}
+{"case": "center", "event": "stage", "stage": "waiting_for_open_door", "elapsed": 0.0, "robot": [1.2814959037156588, -3.104768762343813e-08, 0.0], "error": ""}
+{"case": "center", "event": "stage", "stage": "aligning_at_door", "elapsed": 3.3, "robot": [1.2814959037156588, -3.104768762343813e-08, 0.0], "error": ""}
+{"case": "center", "event": "stage", "stage": "entering", "elapsed": 10.0, "robot": [2.0604545755893082, -3.1066760755234354e-08, 0.0], "error": ""}
+{"case": "center", "event": "stage", "stage": "settling_inside", "elapsed": 27.4, "robot": [4.192916445368954, -3.111897498400077e-08, 0.0], "error": ""}
+{"case": "center", "event": "stage", "stage": "closing_door", "elapsed": 28.5, "robot": [4.192916445368954, -3.111897498400077e-08, 0.0], "error": ""}
+{"case": "center", "event": "stage", "stage": "inside_door_closed", "elapsed": 32.0, "robot": [4.192916445368954, -3.111897498400077e-08, 0.0], "error": ""}
+{"case": "center", "event": "PASS", "events": ["waiting_for_open_door", "aligning_at_door", "entering", "settling_inside", "closing_door", "inside_door_closed"], "robot": [4.192916445368954, -3.111897498400077e-08, 0.0]}
+{"case": "left", "event": "start", "pose": [1.253240079083096, 0.3155113706043591, -1.67904367351402e-19]}
+{"case": "left", "event": "stage", "stage": "waiting_for_open_door", "elapsed": 0.0, "robot": [1.253240079083096, 0.3155113706043591, 0.0], "error": ""}
+{"case": "left", "event": "stage", "stage": "preparing", "elapsed": 3.3, "robot": [1.253240079083096, 0.3155113706043591, 0.0], "error": ""}
+{"case": "left", "event": "stage", "stage": "aligning_at_door", "elapsed": 3.6, "robot": [1.253240079083096, 0.3155113706043591, 0.0], "error": ""}
+{"case": "left", "event": "stage", "stage": "entering", "elapsed": 11.5, "robot": [2.1986045282161784, 0.211282450127502, 0.0], "error": ""}
+{"case": "left", "event": "stage", "stage": "settling_inside", "elapsed": 28.6, "robot": [4.248609754304378, -0.022249116424067964, 0.0], "error": ""}
+{"case": "left", "event": "stage", "stage": "closing_door", "elapsed": 30.1, "robot": [4.248609754304378, -0.022249116424067964, 0.0], "error": ""}
+{"case": "left", "event": "stage", "stage": "inside_door_closed", "elapsed": 33.5, "robot": [4.248609754304378, -0.022249116424067964, 0.0], "error": ""}
+{"case": "left", "event": "PASS", "events": ["waiting_for_open_door", "preparing", "aligning_at_door", "entering", "settling_inside", "closing_door", "inside_door_closed"], "robot": [4.248609754304378, -0.022249116424067964, 0.0]}
+{"case": "right", "event": "start", "pose": [1.2528060842676665, -0.3188360847882216, -4.847587621607478e-10]}
+{"case": "right", "event": "stage", "stage": "waiting_for_open_door", "elapsed": 0.0, "robot": [1.2528060842676665, -0.3188360847882216, 0.0], "error": ""}
+{"case": "right", "event": "stage", "stage": "aligning_at_door", "elapsed": 3.4, "robot": [1.2528060842676665, -0.3188360847882216, 0.0], "error": ""}
+{"case": "right", "event": "stage", "stage": "entering", "elapsed": 11.1, "robot": [2.137237969741478, -0.17044499081880216, 0.0], "error": ""}
+{"case": "right", "event": "stage", "stage": "settling_inside", "elapsed": 28.4, "robot": [4.232092506113676, 0.037932890506343235, 0.0], "error": ""}
+{"case": "right", "event": "stage", "stage": "closing_door", "elapsed": 29.4, "robot": [4.239689151193081, 0.03770709516189863, 0.0], "error": ""}
+{"case": "right", "event": "stage", "stage": "inside_door_closed", "elapsed": 33.0, "robot": [4.239689151193081, 0.03770709516189863, 0.0], "error": ""}
+{"case": "right", "event": "PASS", "events": ["waiting_for_open_door", "aligning_at_door", "entering", "settling_inside", "closing_door", "inside_door_closed"], "robot": [4.239689151193081, 0.03770709516189863, 0.0]}
+{"case": "angled", "event": "start", "pose": [1.253884390227519, 0.17295383874147077, 0.3254598964226522]}
+{"case": "angled", "event": "stage", "stage": "waiting_for_open_door", "elapsed": 0.0, "robot": [1.253884390227519, 0.17295383874147077, 0.0], "error": ""}
+{"case": "angled", "event": "stage", "stage": "aligning_at_door", "elapsed": 3.3, "robot": [1.253884390227519, 0.17295383874147077, 0.0], "error": ""}
+{"case": "angled", "event": "stage", "stage": "entering", "elapsed": 11.0, "robot": [2.132011172471493, 0.167277617623383, 0.0], "error": ""}
+{"case": "angled", "event": "stage", "stage": "settling_inside", "elapsed": 28.6, "robot": [4.254164937089049, 0.052514847021998254, 0.0], "error": ""}
+{"case": "angled", "event": "stage", "stage": "closing_door", "elapsed": 30.1, "robot": [4.254164937089049, 0.052514847021998254, 0.0], "error": ""}
+{"case": "angled", "event": "stage", "stage": "inside_door_closed", "elapsed": 33.4, "robot": [4.254164937089049, 0.052514847021998254, 0.0], "error": ""}
+{"case": "angled", "event": "PASS", "events": ["waiting_for_open_door", "aligning_at_door", "entering", "settling_inside", "closing_door", "inside_door_closed"], "robot": [4.254164937089049, 0.052514847021998254, 0.0]}
+{"event": "ROUND_PASS"}
+{"event": "FAIL", "error": "timeout"}
+Traceback (most recent call last):
+  File "/runtime/elevator_repeat10.py", line 101, in <module>
+    try:asyncio.run(repeat())
+  File "/usr/lib/python3.10/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 649, in run_until_complete
+    return future.result()
+  File "/runtime/elevator_repeat10.py", line 98, in repeat
+    await check()
+  File "/runtime/elevator_repeat10.py", line 79, in check
+    await waitfor(lambda:req('/device/status')['elevatorEntry']['stage']=='entering',50)
+  File "/runtime/elevator_repeat10.py", line 25, in waitfor
+    raise RuntimeError('timeout')
+RuntimeError: timeout

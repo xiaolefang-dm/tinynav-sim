@@ -1,0 +1,1874 @@
+transforms:
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: floor_0
+  transform:
+    translation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: floor_1
+  transform:
+    translation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: elevator_cabin
+  transform:
+    translation:
+      x: 4.5
+      y: 0.0
+      z: 0.0
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: cabin_left
+  transform:
+    translation:
+      x: 3.08
+      y: 1.4
+      z: 0.0
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: landing_0_left
+  transform:
+    translation:
+      x: 3.0
+      y: 1.4
+      z: 0.0
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: landing_1_left
+  transform:
+    translation:
+      x: 3.0
+      y: 0.45
+      z: 3.0
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: cabin_right
+  transform:
+    translation:
+      x: 3.08
+      y: -1.4
+      z: 0.0
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: landing_0_right
+  transform:
+    translation:
+      x: 3.0
+      y: -1.4
+      z: 0.0
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: landing_1_right
+  transform:
+    translation:
+      x: 3.0
+      y: -0.45
+      z: 3.0
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: go2
+  transform:
+    translation:
+      x: 2.1338616245442776
+      y: 0.039985967705242785
+      z: 0.0
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: -0.43934681947026305
+      w: 0.8983175230514899
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: floor
+  transform:
+    translation:
+      x: -1.0
+      y: 0.0
+      z: -0.1
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: back
+  transform:
+    translation:
+      x: -5.1
+      y: 0.0
+      z: 1.4
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: side_-3.1
+  transform:
+    translation:
+      x: -1.0
+      y: -3.1
+      z: 1.4
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: side_3.1
+  transform:
+    translation:
+      x: -1.0
+      y: 3.1
+      z: 1.4
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: entrance_-2.0
+  transform:
+    translation:
+      x: 3.0
+      y: -2.0
+      z: 1.4
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: entrance_2.0
+  transform:
+    translation:
+      x: 3.0
+      y: 2.0
+      z: 1.4
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: lintel
+  transform:
+    translation:
+      x: 3.0
+      y: 0.0
+      z: 2.65
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: landmark_0
+  transform:
+    translation:
+      x: -4.0
+      y: -2.5
+      z: 0.25
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: landmark_1
+  transform:
+    translation:
+      x: -2.95
+      y: 2.5
+      z: 0.33
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: landmark_2
+  transform:
+    translation:
+      x: -1.9
+      y: -2.5
+      z: 0.41000000000000003
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: landmark_3
+  transform:
+    translation:
+      x: -0.8499999999999996
+      y: 2.5
+      z: 0.49
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: landmark_4
+  transform:
+    translation:
+      x: 0.20000000000000018
+      y: -2.5
+      z: 0.5700000000000001
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: landmark_5
+  transform:
+    translation:
+      x: 1.25
+      y: 2.5
+      z: 0.65
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: ceiling
+  transform:
+    translation:
+      x: -1.0
+      y: 0.0
+      z: 2.9
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: floor
+  transform:
+    translation:
+      x: -1.0
+      y: 0.0
+      z: 2.9
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: back
+  transform:
+    translation:
+      x: -5.1
+      y: 0.0
+      z: 4.4
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: side_-3.1
+  transform:
+    translation:
+      x: -1.0
+      y: -3.1
+      z: 4.4
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: side_3.1
+  transform:
+    translation:
+      x: -1.0
+      y: 3.1
+      z: 4.4
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: entrance_-2.0
+  transform:
+    translation:
+      x: 3.0
+      y: -2.0
+      z: 4.4
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: entrance_2.0
+  transform:
+    translation:
+      x: 3.0
+      y: 2.0
+      z: 4.4
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: lintel
+  transform:
+    translation:
+      x: 3.0
+      y: 0.0
+      z: 5.65
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: landmark_0
+  transform:
+    translation:
+      x: -4.0
+      y: -2.5
+      z: 3.25
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: landmark_1
+  transform:
+    translation:
+      x: -2.95
+      y: 2.5
+      z: 3.33
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: landmark_2
+  transform:
+    translation:
+      x: -1.9
+      y: -2.5
+      z: 3.41
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: landmark_3
+  transform:
+    translation:
+      x: -0.8499999999999996
+      y: 2.5
+      z: 3.49
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: landmark_4
+  transform:
+    translation:
+      x: 0.20000000000000018
+      y: -2.5
+      z: 3.57
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: landmark_5
+  transform:
+    translation:
+      x: 1.25
+      y: 2.5
+      z: 3.65
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: ceiling
+  transform:
+    translation:
+      x: -1.0
+      y: 0.0
+      z: 5.9
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: floor
+  transform:
+    translation:
+      x: 0.0
+      y: 0.0
+      z: -0.1
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: back
+  transform:
+    translation:
+      x: 1.5999999999999996
+      y: 0.0
+      z: 1.3
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: wall_-1.1
+  transform:
+    translation:
+      x: 0.0
+      y: -1.1
+      z: 1.3
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: wall_1.1
+  transform:
+    translation:
+      x: 0.0
+      y: 1.1
+      z: 1.3
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: roof
+  transform:
+    translation:
+      x: 0.0
+      y: 0.0
+      z: 2.75
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: marker_0
+  transform:
+    translation:
+      x: 1.4800000000000004
+      y: -0.7
+      z: 0.8
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: marker_1
+  transform:
+    translation:
+      x: 1.4800000000000004
+      y: -0.24999999999999994
+      z: 1.0
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: marker_2
+  transform:
+    translation:
+      x: 1.4800000000000004
+      y: 0.20000000000000007
+      z: 1.2000000000000002
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: marker_3
+  transform:
+    translation:
+      x: 1.4800000000000004
+      y: 0.6500000000000001
+      z: 1.4000000000000001
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: panel
+  transform:
+    translation:
+      x: 0.0
+      y: 0.0
+      z: 1.2
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: panel
+  transform:
+    translation:
+      x: 0.0
+      y: 0.0
+      z: 1.2
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: panel
+  transform:
+    translation:
+      x: 0.0
+      y: 0.0
+      z: 1.2
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: panel
+  transform:
+    translation:
+      x: 0.0
+      y: 0.0
+      z: 1.2
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: panel
+  transform:
+    translation:
+      x: 0.0
+      y: 0.0
+      z: 1.2
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: panel
+  transform:
+    translation:
+      x: 0.0
+      y: 0.0
+      z: 1.2
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: base_link
+  transform:
+    translation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: floor_visual
+  transform:
+    translation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: back_visual
+  transform:
+    translation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: side_-3.1_visual
+  transform:
+    translation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: side_3.1_visual
+  transform:
+    translation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: entrance_-2.0_visual
+  transform:
+    translation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: entrance_2.0_visual
+  transform:
+    translation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: lintel_visual
+  transform:
+    translation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: landmark_0_visual
+  transform:
+    translation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: landmark_1_visual
+  transform:
+    translation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: landmark_2_visual
+  transform:
+    translation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: landmark_3_visual
+  transform:
+    translation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: landmark_4_visual
+  transform:
+    translation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: landmark_5_visual
+  transform:
+    translation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: ceiling_visual
+  transform:
+    translation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: floor_visual
+  transform:
+    translation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: back_visual
+  transform:
+    translation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: side_-3.1_visual
+  transform:
+    translation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: side_3.1_visual
+  transform:
+    translation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: entrance_-2.0_visual
+  transform:
+    translation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: entrance_2.0_visual
+  transform:
+    translation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: lintel_visual
+  transform:
+    translation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: landmark_0_visual
+  transform:
+    translation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: landmark_1_visual
+  transform:
+    translation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: landmark_2_visual
+  transform:
+    translation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: landmark_3_visual
+  transform:
+    translation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: landmark_4_visual
+  transform:
+    translation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: landmark_5_visual
+  transform:
+    translation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: ceiling_visual
+  transform:
+    translation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: floor_visual
+  transform:
+    translation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: back_visual
+  transform:
+    translation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: wall_-1.1_visual
+  transform:
+    translation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: wall_1.1_visual
+  transform:
+    translation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: roof_visual
+  transform:
+    translation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: marker_0_visual
+  transform:
+    translation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: marker_1_visual
+  transform:
+    translation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: marker_2_visual
+  transform:
+    translation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: marker_3_visual
+  transform:
+    translation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: panel_visual
+  transform:
+    translation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: panel_visual
+  transform:
+    translation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: panel_visual
+  transform:
+    translation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: panel_visual
+  transform:
+    translation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: panel_visual
+  transform:
+    translation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: panel_visual
+  transform:
+    translation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: sunVisual
+  transform:
+    translation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: base_link_visual
+  transform:
+    translation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: base_link_fixed_joint_lump__trunk_visual_1
+  transform:
+    translation:
+      x: 0.0
+      y: 0.0
+      z: 0.27
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: base_link_fixed_joint_lump__lf_hip_link_visual_2
+  transform:
+    translation:
+      x: 0.1934
+      y: 0.142
+      z: 0.27
+    rotation:
+      x: 0.7071067811865472
+      y: 0.0
+      z: 0.0
+      w: 0.7071067811865478
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: base_link_fixed_joint_lump__lf_upper_leg_link_visual_3
+  transform:
+    translation:
+      x: 0.1071677554507596
+      y: 0.142
+      z: 0.2075
+    rotation:
+      x: 3.935794281772399e-17
+      y: 0.9512340503477756
+      z: 3.935794281772399e-17
+      w: 0.3084700657421485
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: base_link_fixed_joint_lump__lf_lower_leg_link_visual_4
+  transform:
+    translation:
+      x: 0.1071677554507596
+      y: 0.142
+      z: 0.08250000000000005
+    rotation:
+      x: 0.0
+      y: 0.3084700657421483
+      z: 0.0
+      w: 0.9512340503477758
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: base_link_fixed_joint_lump__lf_foot_link_visual_5
+  transform:
+    translation:
+      x: 0.1934
+      y: 0.142
+      z: 0.02000000000000002
+    rotation:
+      x: 0.0
+      y: -0.45450277221712493
+      z: 0.0
+      w: 0.8907453227757911
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: base_link_fixed_joint_lump__lh_hip_link_visual_6
+  transform:
+    translation:
+      x: -0.1934
+      y: 0.142
+      z: 0.27
+    rotation:
+      x: 0.7071067811865472
+      y: 0.0
+      z: 0.0
+      w: 0.7071067811865478
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: base_link_fixed_joint_lump__lh_upper_leg_link_visual_7
+  transform:
+    translation:
+      x: -0.2796322445492404
+      y: 0.142
+      z: 0.2075
+    rotation:
+      x: 3.935794281772399e-17
+      y: 0.9512340503477756
+      z: 3.935794281772399e-17
+      w: 0.3084700657421485
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: base_link_fixed_joint_lump__lh_lower_leg_link_visual_8
+  transform:
+    translation:
+      x: -0.2796322445492404
+      y: 0.142
+      z: 0.08250000000000005
+    rotation:
+      x: 0.0
+      y: 0.3084700657421483
+      z: 0.0
+      w: 0.9512340503477758
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: base_link_fixed_joint_lump__lh_foot_link_visual_9
+  transform:
+    translation:
+      x: -0.1934
+      y: 0.142
+      z: 0.02000000000000002
+    rotation:
+      x: 0.0
+      y: -0.45450277221712493
+      z: 0.0
+      w: 0.8907453227757911
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: base_link_fixed_joint_lump__rf_hip_link_visual_10
+  transform:
+    translation:
+      x: 0.1934
+      y: -0.142
+      z: 0.27
+    rotation:
+      x: 0.7071067811865472
+      y: 0.0
+      z: 0.0
+      w: 0.7071067811865478
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: base_link_fixed_joint_lump__rf_upper_leg_link_visual_11
+  transform:
+    translation:
+      x: 0.1071677554507596
+      y: -0.142
+      z: 0.2075
+    rotation:
+      x: 3.935794281772399e-17
+      y: 0.9512340503477756
+      z: 3.935794281772399e-17
+      w: 0.3084700657421485
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: base_link_fixed_joint_lump__rf_lower_leg_link_visual_12
+  transform:
+    translation:
+      x: 0.1071677554507596
+      y: -0.142
+      z: 0.08250000000000005
+    rotation:
+      x: 0.0
+      y: 0.3084700657421483
+      z: 0.0
+      w: 0.9512340503477758
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: base_link_fixed_joint_lump__rf_foot_link_visual_13
+  transform:
+    translation:
+      x: 0.1934
+      y: -0.142
+      z: 0.02000000000000002
+    rotation:
+      x: 0.0
+      y: -0.45450277221712493
+      z: 0.0
+      w: 0.8907453227757911
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: base_link_fixed_joint_lump__rh_hip_link_visual_14
+  transform:
+    translation:
+      x: -0.1934
+      y: -0.142
+      z: 0.27
+    rotation:
+      x: 0.7071067811865472
+      y: 0.0
+      z: 0.0
+      w: 0.7071067811865478
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: base_link_fixed_joint_lump__rh_upper_leg_link_visual_15
+  transform:
+    translation:
+      x: -0.2796322445492404
+      y: -0.142
+      z: 0.2075
+    rotation:
+      x: 3.935794281772399e-17
+      y: 0.9512340503477756
+      z: 3.935794281772399e-17
+      w: 0.3084700657421485
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: base_link_fixed_joint_lump__rh_lower_leg_link_visual_16
+  transform:
+    translation:
+      x: -0.2796322445492404
+      y: -0.142
+      z: 0.08250000000000005
+    rotation:
+      x: 0.0
+      y: 0.3084700657421483
+      z: 0.0
+      w: 0.9512340503477758
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: base_link_fixed_joint_lump__rh_foot_link_visual_17
+  transform:
+    translation:
+      x: -0.1934
+      y: -0.142
+      z: 0.02000000000000002
+    rotation:
+      x: 0.0
+      y: -0.45450277221712493
+      z: 0.0
+      w: 0.8907453227757911
+- header:
+    stamp:
+      sec: 0
+      nanosec: 0
+    frame_id: ''
+  child_frame_id: sun
+  transform:
+    translation:
+      x: 0.0
+      y: 0.0
+      z: 12.0
+    rotation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0
+---
