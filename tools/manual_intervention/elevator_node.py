@@ -7,6 +7,8 @@ import json
 import queue
 import threading
 from pathlib import Path
+from urllib.request import Request, urlopen
+from urllib.error import HTTPError
 
 import rclpy
 from rclpy.node import Node
@@ -148,8 +150,22 @@ def serve(node, port):
             self.end_headers()
             self.wfile.write(data)
 
+        def test_proxy(self, action):
+            try:
+                req = Request("http://127.0.0.1:8110/" + action,
+                              data=None if action == "status" else b"{}",
+                              headers={"Content-Type": "application/json"})
+                with urlopen(req, timeout=5) as response:
+                    self.send(200, response.read())
+            except HTTPError as error:
+                self.send(error.code, error.read())
+            except OSError:
+                self.send(503, b'{"status":"unavailable","ok":false,"error":"Robot test service unavailable"}')
+
         def do_GET(self):
-            if self.path == "/status":
+            if self.path == "/test/status":
+                self.test_proxy("status")
+            elif self.path == "/status":
                 self.send(200, json.dumps(node.status()).encode())
             elif self.path == "/":
                 self.send(200, page, "text/html; charset=utf-8")
@@ -157,14 +173,27 @@ def serve(node, port):
                 self.send(404, b"{}")
 
         def do_POST(self):
-            if self.path != "/command":
+            if self.path in ("/test/start", "/test/cancel"):
+                self.test_proxy(self.path.rsplit("/", 1)[1])
+                return
+            if self.path not in ("/command", "/robot-command"):
                 self.send(404, b"{}")
+                return
+            if self.path == "/robot-command" and self.client_address[0] != "127.0.0.1":
+                self.send(403, b'{"ok":false,"error":"Robot commands require loopback"}')
                 return
             try:
                 size = int(self.headers.get("Content-Length", "0"))
                 if not 0 < size <= 4096:
                     raise ValueError("Invalid command size")
                 command = json.loads(self.rfile.read(size))
+                try:
+                    with urlopen("http://127.0.0.1:8110/status", timeout=1) as response:
+                        if self.path == "/command" and json.load(response).get("status") in ("running", "stopping"):
+                            self.send(409, b'{"ok":false,"error":"Cancel Test before manual elevator commands"}')
+                            return
+                except OSError:
+                    pass
                 event = threading.Event()
                 result = {}
                 node.requests.put((command, event, result))
