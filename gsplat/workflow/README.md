@@ -39,3 +39,20 @@ TinyNav scene. Serve the directory with any static HTTP server, for example
 `python3 -m http.server 8766 --directory scenes` from this workflow directory.
 For remote clients, use each host's reachable address in the JSON file.
 The picker opens the selected TinyNav web app in a new tab.
+
+## Isolated WebRTC preview
+
+A newly started renderer may compile the gsplat CUDA extension before writing
+its first frame. The launch stage allows up to 900 seconds for that frame
+(`METACAM_RENDERER_TIMEOUT_SEC`) and starts the WebRTC publisher after Pilot's
+camera topic endpoint responds. Wait for the runner's App URL before opening
+the gateway. If a stopped container left a stale CUDA compilation lock, use a
+fresh container before retrying with the existing exported scene.
+
+For an isolated preview with its own MediaMTX instance, bind a distinct UDP
+port on the host and use **the same port inside the shared network namespace**.
+For example, publish `HOST_IP:8193:8193/udp` on the preview container, then run
+MediaMTX in that container's network namespace with
+`MTX_WEBRTCLOCALUDPADDRESS=:8193` and
+`MTX_WEBRTCADDITIONALHOSTS=HOST_IP`. Publishing `8193:8189/udp` alone can
+leave WebRTC advertising port 8189 even though the web gateway works.

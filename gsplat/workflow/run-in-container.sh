@@ -126,7 +126,13 @@ start() {
 }
 previous_frame=$(stat -c %y /scene/sim-runtime/front.jpg 2>/dev/null || true)
 start renderer "$python" "$tools/runtime/server.py" --resume
-for ((attempt=0; attempt<150; attempt++)); do
+renderer_timeout=${METACAM_RENDERER_TIMEOUT_SEC:-900}
+if [[ ! "$renderer_timeout" =~ ^[1-9][0-9]{0,4}$ ]]; then
+    echo 'METACAM_RENDERER_TIMEOUT_SEC must be a positive integer.' >&2
+    exit 2
+fi
+renderer_deadline=$((SECONDS + renderer_timeout))
+while ((SECONDS < renderer_deadline)); do
     kill -0 "${pids[0]}"
     current_frame=$(stat -c %y /scene/sim-runtime/front.jpg 2>/dev/null || true)
     if [[ -n "$current_frame" && "$current_frame" != "$previous_frame" ]]; then
@@ -147,8 +153,25 @@ for action in nav turn capture; do
 done
 start frontend "$ros_python" /workspace/deploy/serve_web.py \
     /workspace/tinynav-app/frontend/build/web "${METACAM_WEB_PORT:-80}"
-start webrtc "$ros_python" -m deploy.webrtc_pub
 start pilot "$ros_python" -m pilot.main
+"$ros_python" - <<'READY'
+import json
+import time
+from urllib.request import urlopen
+
+deadline = time.monotonic() + 45
+while time.monotonic() < deadline:
+    try:
+        with urlopen("http://127.0.0.1:8000/sensor/image-topics", timeout=2) as response:
+            if json.load(response).get("topics"):
+                break
+    except (OSError, ValueError):
+        pass
+    time.sleep(0.5)
+else:
+    raise SystemExit("Pilot camera topics did not become ready. See pilot.log.")
+READY
+start webrtc "$ros_python" -m deploy.webrtc_pub
 wait -n
 echo 'A simulation process exited. See /scene/logs.' >&2
 exit 1

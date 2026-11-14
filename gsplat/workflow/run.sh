@@ -45,6 +45,7 @@ docker run --detach --init --name "$name" --gpus all --network host --shm-size=1
     "${vulkan_options[@]}" --env "METACAM_RESUME_MASKS=${METACAM_RESUME_MASKS:-0}" \
     --env "METACAM_RESUME_RENDER=${METACAM_RESUME_RENDER:-0}" \
     --env "METACAM_ACCEPT_SAM_LICENSE=${METACAM_ACCEPT_SAM_LICENSE:-0}" \
+    --env "METACAM_RENDERER_TIMEOUT_SEC=${METACAM_RENDERER_TIMEOUT_SEC:-900}" \
     --env "METACAM_WEB_PORT=$port" --env NVIDIA_DRIVER_CAPABILITIES=compute,utility,graphics,video \
     --mount "type=bind,source=$workflow/run-in-container.sh,target=/opt/metacam/run,readonly" \
     --mount "type=bind,source=$capture,target=/capture,readonly" \
